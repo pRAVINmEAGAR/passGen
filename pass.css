@@ -1,0 +1,158 @@
+body{
+    background-color:#02091ac5;
+    color: white;
+}
+.box{
+    padding: 0mm ;
+    width: 500px;
+    position: relative;
+    left: 65mm;
+}
+.inner{
+    width: 30em;
+      background-color: #111827;
+    text-align: center;
+   padding: 5mm;
+   position: relative;
+   top: 9em;
+   left: 9em;
+}
+ #tex{
+    display: flex;
+    color:#4ADF86;
+} 
+.mum{
+    color: #D5D4D8;
+}
+.head{
+    text-align: start;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+button{
+    width: 10em;
+    cursor: pointer;
+    margin-bottom: 5mm;
+    padding: 2mm;
+    border: 0px;
+    border-radius: 3mm;
+    background-color: #4ADF86;
+}
+img{
+    cursor: text;
+}
+.rio{
+    background-color:#111827;
+    color:#4ADF86;
+   border: 0px gray;
+   font-style: italic;
+}
+.at{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 5mm;
+}
+.num{
+    cursor:pointer;
+    color: #4ADF86;
+    text-align: center;
+    width: 10rem;
+    height: 8vh;
+    background-color:#273549;
+    border: 0px solid red;
+    padding: 5px;
+    border-radius: 1.2mm;
+     margin-right: 10px;
+}
+.num:hover{
+    position: relative;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+}
+@keyframes moving {
+        0%{
+           transform: rotate(11deg);
+           box-shadow: 2px 2px 2px rgb(245, 209, 4);
+        }
+        30%{
+            transform: rotate(-9deg);
+            box-shadow: 2mm 2mm 4mm rgb(182, 158, 26);
+
+        }
+        45%{
+            transform: rotate(-8deg);
+            box-shadow: -2mm 2mm 5mm rgb(128, 111, 15);
+        }
+        50%{
+            transform: rotate(-8deg);
+            box-shadow: -2mm 2mm 5mm rgb(77, 66, 5);
+        }
+        65%{
+            transform: rotate(-9deg);
+            box-shadow: -2mm 2mm 5mm rgb(31, 26, 1);
+        }
+        80%{
+            transform: rotate(-10deg);
+            box-shadow: -2mm 2mm 5mm rgb(65, 56, 11);
+        }
+        100%{
+            bottom: 1mm;
+          transform: none;
+            background-color: #9ab30dad;
+        }
+}
+.num1{
+    cursor: pointer;
+    color: #4ADF86;
+    width: 10rem;
+    height: 8vh;
+    text-align: center;
+    margin-left: 10px;
+    background-color:#273549;
+    border: 0px solid red;
+    padding: 5px;
+    border-radius: 1.2mm;
+}
+.num1:hover{
+    position: relative;
+    animation-name: moving1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+}
+@keyframes moving1 {
+        0%{
+           transform: rotate(11deg);
+           box-shadow: 2px 2px 2px rgb(52, 245, 4);
+        }
+        30%{
+            transform: rotate(-9deg);
+            box-shadow: 2mm 2mm 4mm rgb(26, 182, 34);
+
+        }
+        45%{
+            transform: rotate(-8deg);
+            box-shadow: -2mm 2mm 5mm rgb(15, 128, 49);
+        }
+        50%{
+            transform: rotate(-8deg);
+            box-shadow: -2mm 2mm 5mm rgb(5, 77, 41);
+        }
+        65%{
+            transform: rotate(-9deg);
+            box-shadow: -2mm 2mm 5mm rgba(6, 65, 43, 0.644);
+        }
+        100%{
+            bottom: 1mm;
+            background-color: #35c04193;
+        }
+}
